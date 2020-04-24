@@ -1,0 +1,2 @@
+model_checkpoint_path: "MNIST_50_0.01_500_final.ckpt"
+all_model_checkpoint_paths: "MNIST_50_0.01_500_final.ckpt"
