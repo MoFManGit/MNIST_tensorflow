@@ -1,7 +1,9 @@
 # MNIST_tensorflow
 This repository is a Tensorflow implementation of MNIST course. Is to solve the handwritten digit recognition problem. The project is used Convolutional neural network (CNN) as the model, the model input is a 1x784 vector (a 28x28 MNIST handwritten digit image is flattened to a 1x784 vector), the model output is a 1x10 vector, is the predicted distribution.<br>
-Overview of MNIST handwritten digit images<br>
+<br>Overview of MNIST handwritten digit images:<br>
 ![image](https://github.com/MoFManGit/MNIST_tensorflow/blob/master/README_images/mnistdataset.jpg)
+<br>Overview of inference process:<br>
+![image](https://github.com/MoFManGit/MNIST_tensorflow/blob/master/README_images/mnistcnn.jpg)
 
 # Dependencies
 Python 3.6<br>
@@ -18,7 +20,7 @@ Train_MNIST.py is the training code file, ./MNIST_data is stored the MNIST train
 run: `python Covert_MNIST_image.py` to covert a MNIST data 1x784 vector to 28x28 image and save as .jpg
 
 ## Test: 
-run: `python Test_MNIST.py` is to used the pretrained model ./models/ckpt/MNIST_50_0.01_1000_final.ckpt for a 28x28 MNIST image  inference process
+run: `python Test_MNIST.py` is to used the pretrained model ./models/ckpt/MNIST_50_0.01_1000_final.ckpt for a 28x28 MNIST image inference process.
 
 ## Covert .ckpt model to .pb model: 
 run: `python Ckpt_to_pb_MNIST.py` to covert a pretrained model of .ckpt file to .pb file.
