@@ -1,5 +1,11 @@
 # MNIST_tensorflow
-This is a tensorflow implementation of MNIST course
+This repository is a Tensorflow implementation of MNIST course. Is to solve the handwritten digit recognition problem. The project is used Convolutional neural network (CNN) as the model, the model input is a 1x784 vector (a 28x28 MNIST handwritten digit image is flattened to a 1x784 vector), the model output is a 1x10 vector, is the predicted distribution. 
+
+# Dependencies
+Python 3.6
+Tensorflow 1.8.0
+Numpy
+Opencv 3.4.2
 
 # Train: 
 python Train_MNIST.py
