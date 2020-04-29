@@ -10,16 +10,16 @@ Opencv 3.4.2<br>
 # Usage
 ## Train:
 Train_MNIST.py is the training code file, ./MNIST_data is stored the MNIST training dataset. ./models/ckpt/ is stored the pretrained model .ckpt file, ./summaries/ stored the training log of loss curve. you can use the default parameter to train the model by run:<br>
-python Train_MNIST.py
+`python Train_MNIST.py`
 
 ## Covert MNIST data to image: 
-run: python Covert_MNIST_image.py to covert a MNIST data 1x784 vector to 28x28 image and save as .jpg
+run: `python Covert_MNIST_image.py` to covert a MNIST data 1x784 vector to 28x28 image and save as .jpg
 
 ## Test: 
-run: python Test_MNIST.py is to used the pretrained model ./models/ckpt/MNIST_50_0.01_1000_final.ckpt for a 28x28 MNIST image  inference process
+run: `python Test_MNIST.py` is to used the pretrained model ./models/ckpt/MNIST_50_0.01_1000_final.ckpt for a 28x28 MNIST image  inference process
 
 ## Covert .ckpt model to .pb model: 
-run: python Ckpt_to_pb_MNIST.py to covert a pretrained model of .ckpt file to .pb file.
+run: `python Ckpt_to_pb_MNIST.py` to covert a pretrained model of .ckpt file to .pb file.
 
 ## CNN architecture: 
 Network.py is defined the architecture of CNN, the model is composed by a convolutional layer, a max pooling layer and two fully connected layer.
